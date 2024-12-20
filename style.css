@@ -1,97 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Quattrocento&display=swap');
-body{
-    background-color: antiquewhite;
+.page{
+    width:85%;
+    margin:0 auto 0 auto;
+  
+    height: auto;
 }
 
-*{
-    margin: 0;
-    padding: o;
+.header{
+    height: 85px;
+    background-color:rgb(206, 226, 213);
+    position: relative;
+   
+    
+  
+}
+.img-logo{
+    height: 150px;
+    display:inline;
+    float: left;
 }
 
-nav{
-    font-family: 'Ubuntu' sans-serif;
+.nav-items{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: -20px;
+   
+}
+.nav-elements > ul > li{
+    display: inline;
+    margin-left: 170px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color:black;
+
+}
+.nav-items>li>a{
+    text-decoration: none;
+    color:rgb(128, 128, 128)
+
+}
+.nav-items>li>a:hover{
+    color:rgb(30, 255, 86);
 }
 
-nav ul{
-     display: flex;
-     align-items: center;
-     list-style-type:none ;
-     height: 55px;
-     background-color: black;  
-     color: white;   
-}
-nav ul li{
-    padding: 0 25px;
-}
-.brand img{
-    width: 40px;
-    padding: 0 8px;
-}
-.brand{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3rem;
-}
-.container{
-    min-height: 72vh;
-    background-color: black;
-    color: white;
-    display: flex;
-    margin: 23px auto;
-    width: 70%;
-   border-radius: 12px ;
-   padding: 34px;
-   background-image: url(style.jpg);
-}
-.bottom{
-    position: sticky;
-    height: 130px;
-    background-color: black;
-    color: white;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;   
-}
-.icon{
-    margin-top: 34px;
-}
-.icon i{
-    cursor: pointer;
-}
-#MyProgressBar{
-    width: 80vw;
-    text-align: center;
-}
-.songitem{
-    height: 50px;
-    display: flex;
+
+.body{
+    height: 800px;
     background-color: white;
-    width: 80%;
-    color: black;
-    margin: 12px 0;
-    justify-content: space-between;
-    align-items: center;
+    align-items: self-start;
+    margin-left:420px;
+    margin-top: 40px;
+}
+.body-form{
+    
+    width: 550px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    color:floralwhite;
+ 
+  
+  
+    
 }
 
-.songitem img{
-    width: 43px;
-    margin: 0 23px;
-    border-radius: 34px;
+.body-header>h1{
+    font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:cornflowerblue;
+  text-align: center;
+  width:35%;
+  margin-left: 75px;
+  margin-bottom: 45px;
 }
-.timestamp{
-    margin: 0 23px;
-    left: 90px;
+.form-elements
+{
+    margin-left: 50px;
+    padding-top :10px;
+    
 }
- .songinfo{
-    position: absolute;
-    left: 10vw;
- }
- .songinfo img{
-    opacity: 0;
-    transition: opacity 1s ease-in;
- }
- 
+.form-elements>label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   
+}
+
+.marks{
+    display: inline;
+    margin-bottom: 40px;
+    margin-top:10px;
+    align-items:center;
+    border-radius: 5px;
+    height: 35px;
+    width:450px;
+    border: none;
+    
+    
+}
+
+.btn-calculate{
+    width:450px;
+    margin-left: 0px;
+    height: 50px;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border:none;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(134, 115, 221);
+    color:rgb(240, 255, 249)
+
+}
+.results{
+    width:35%;
+    margin-left: 75px;
+    margin-top:40px
+}
+
+.message{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
